@@ -1,0 +1,13 @@
+Go to the directory you want all of your code to be located in. Then create a copy of the repository into your computer with this command:
+git clone https://github.com/RishuvDutta/Sahaya-Cards-Website.git
+
+You will now see a folder in the directory called Sahaya-Cards-Website. This is where all your code will go into.
+Everytime you reached a good stopping point save your work and then execute the following commands:
+git add .
+git commit -m 'put some message explaining the changes you made"
+git push
+
+These commands will essentially update the repository in GitHub so that everyone else on the team has the most up to date version.
+
+If you see that people have added commits to the repository and want those commits on your computer. First follow lines 5-7, then use the command
+git pull
